@@ -16,7 +16,7 @@
      * Distributed as-is; no warranty is given.
      */
 
-declare namespace extensiontest {
+declare namespace exttestb {
 }
 
 // Auto-generated. Do not edit. Really.

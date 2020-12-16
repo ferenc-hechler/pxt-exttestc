@@ -1,4 +1,4 @@
-/*-- File: extensiontest.cpp start --*/
+/*-- File: exttestb.cpp start --*/
 /**
 * Andy England @ SparkFun Electronics
 * September 6, 2018
@@ -22,19 +22,19 @@
 
 using namespace pxt;
 
-namespace extensiontest {
+namespace exttestb {
 
-//% blockId=extensiontest_initfcnn
+//% blockId=exttestb_initfcnn
 //% block="Init Brain|number %inputs|number[] %hidden|number %outputs"
-//% shim=extensiontest::initfcnn
+//% shim=exttestb::initfcnn
 void initfcnn(int inputs, RefCollection &hidden, int outputs) {
 	uBit.serial.send("initfcnn-v2");
 }
 
 
-//% blockId=extensiontest_fcnnfromjson
+//% blockId=exttestb_fcnnfromjson
 //% block="Json Brain|string %json"
-//% shim=extensiontest::fcnnfromjson
+//% shim=exttestb::fcnnfromjson
 void fcnnfromjson(String json) {
 	uBit.serial.send("fcnnfromjson-v2");
 }
@@ -42,25 +42,25 @@ void fcnnfromjson(String json) {
 
 
 
-//% blockId=extensiontest_ftrain
+//% blockId=exttestb_ftrain
 //% block="Train with err result|number[] %input|number[] %expected_output"
-//% shim=extensiontest::ftrain
+//% shim=exttestb::ftrain
 float ftrain(RefCollection &input, RefCollection &expected_output) {
 	uBit.serial.send("ftrain-v2");
 }
 
-//% blockId=extensiontest_train
+//% blockId=exttestb_train
 //% block="Train|number[] %input|number[] %expected_output"
-//% shim=extensiontest::train
+//% shim=exttestb::train
 void train(RefCollection &input, RefCollection &expected_output) {
 	uBit.serial.send("train-v2");
 }
 
 
 
-//% blockId=extensiontest_predict
+//% blockId=exttestb_predict
 //% block="Predict|number[] %input|number[] %output"
-//% shim=extensiontest::predict
+//% shim=exttestb::predict
 void predict(RefCollection &input, RefCollection &output) {
 	uBit.serial.send("predict-v2");
 }
@@ -68,7 +68,7 @@ void predict(RefCollection &input, RefCollection &output) {
 
 }
 
-/*-- File: extensiontest.cpp end --*/
+/*-- File: exttestb.cpp end --*/
 /*-- File: common\logUtils.cpp start --*/
 /*-- #include "platform\Utils.h" start --*/
 #ifndef UTILS_H

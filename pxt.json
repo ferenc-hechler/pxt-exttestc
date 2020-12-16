@@ -8,8 +8,8 @@
     },
     "files": [
         "README.md",
-        "extensiontest.ts",
-        "extensiontest.cpp",
+        "exttestb.ts",
+        "exttestb.cpp",
         "shims.d.ts",
         "enums.d.ts"
     ],

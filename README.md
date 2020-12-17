@@ -1,7 +1,29 @@
 # ExtTestB
 
-The gator:starter, which includes the gator:light and gator:temp can be purchased [here.](https://www.sparkfun.com/products/14891)
-The gator:light, included on the gator:starter is an analog light sensor that can be alligator clipped to the micro:bit or gator:bit board.
+## Test Releases
+
+Install Extension
+ 
+* https://github.com/ferenc-hechler/pxt-exttestb
+
+and use javasript sources from INFO/test-full.ts in following editors
+ 
+* CALLIOPE - https://makecode.calliope.cc/#editor
+* MICROBIT - https://makecode.microbit.org/#editor
+* CALLIOPE/beta - https://makecode.calliope.cc/beta#editor
+* MICROBIT/beta - https://makecode.microbit.org/betabeta#editor
+
+### v0.2.4
+ 
++ CALLIOPE
++ MICROBIT
+
+### v0.2.5
+ 
++ CALLIOPE
+
+### v0.2.6
+
 
 
 ## ~ hint

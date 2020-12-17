@@ -20,6 +20,8 @@
 #include <cstdint>
 #include <math.h>
 
+#include "platform/Utils.h"
+
 using namespace pxt;
 
 namespace exttestb {
@@ -28,7 +30,7 @@ namespace exttestb {
 //% block="Init Brain|number %inputs|number[] %hidden|number %outputs"
 //% shim=exttestb::initfcnn
 void initfcnn(int inputs, RefCollection &hidden, int outputs) {
-	uBit.serial.send("initfcnn-v2");
+	log("initfcnn-v2");
 }
 
 
@@ -36,7 +38,7 @@ void initfcnn(int inputs, RefCollection &hidden, int outputs) {
 //% block="Json Brain|string %json"
 //% shim=exttestb::fcnnfromjson
 void fcnnfromjson(String json) {
-	uBit.serial.send("fcnnfromjson-v2");
+	log("fcnnfromjson-v2");
 }
 
 
@@ -46,14 +48,14 @@ void fcnnfromjson(String json) {
 //% block="Train with err result|number[] %input|number[] %expected_output"
 //% shim=exttestb::ftrain
 float ftrain(RefCollection &input, RefCollection &expected_output) {
-	uBit.serial.send("ftrain-v2");
+	log("ftrain-v2");
 }
 
 //% blockId=exttestb_train
 //% block="Train|number[] %input|number[] %expected_output"
 //% shim=exttestb::train
 void train(RefCollection &input, RefCollection &expected_output) {
-	uBit.serial.send("train-v2");
+	log("train-v2");
 }
 
 
@@ -62,7 +64,7 @@ void train(RefCollection &input, RefCollection &expected_output) {
 //% block="Predict|number[] %input|number[] %output"
 //% shim=exttestb::predict
 void predict(RefCollection &input, RefCollection &output) {
-	uBit.serial.send("predict-v2");
+	log("predict-v2");
 }
 
 

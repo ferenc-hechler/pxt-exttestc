@@ -1,4 +1,4 @@
-/*-- File: exttestb.cpp start --*/
+/*-- File: exttestc.cpp start --*/
 /**
 * Andy England @ SparkFun Electronics
 * September 6, 2018
@@ -24,11 +24,11 @@
 
 using namespace pxt;
 
-namespace exttestb {
+namespace exttestc {
 
 //% blockId=exttestb_initfcnn
 //% block="Init Brain|number %inputs|number[] %hidden|number %outputs"
-//% shim=exttestb::initfcnn
+//% shim=exttestc::initfcnn
 void initfcnn(int inputs, RefCollection &hidden, int outputs) {
 	log("initfcnn-v2");
 }
@@ -36,9 +36,9 @@ void initfcnn(int inputs, RefCollection &hidden, int outputs) {
 
 //% blockId=exttestb_fcnnfromjson
 //% block="Json Brain|string %json"
-//% shim=exttestb::fcnnfromjson
+//% shim=exttestc::fcnnfromjson
 void fcnnfromjson(String json) {
-	log("fcnnfromjson-v026\r\n");
+	log("fcnnfromjson-v027\r\n");
 	const char *jsonNN = PXT_STRING_DATA(json);
 	log(jsonNN);
 	log("\r\n");
@@ -49,14 +49,14 @@ void fcnnfromjson(String json) {
 
 //% blockId=exttestb_ftrain
 //% block="Train with err result|number[] %input|number[] %expected_output"
-//% shim=exttestb::ftrain
+//% shim=exttestc::ftrain
 float ftrain(RefCollection &input, RefCollection &expected_output) {
 	log("ftrain-v2");
 }
 
 //% blockId=exttestb_train
 //% block="Train|number[] %input|number[] %expected_output"
-//% shim=exttestb::train
+//% shim=exttestc::train
 void train(RefCollection &input, RefCollection &expected_output) {
 	log("train-v2");
 }
@@ -65,9 +65,9 @@ void train(RefCollection &input, RefCollection &expected_output) {
 
 //% blockId=exttestb_predict
 //% block="Predict|number[] %input|number[] %output"
-//% shim=exttestb::predict
+//% shim=exttestc::predict
 void predict(RefCollection &input, RefCollection &output) {
-	log("predict-v026");
+	log("predict-v027");
 }
 
 

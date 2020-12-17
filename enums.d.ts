@@ -1,6 +1,6 @@
 // Auto-generated. Do not edit.
 
-declare namespace exttestb {
+declare namespace exttestc {
 }
 
 // Auto-generated. Do not edit. Really.

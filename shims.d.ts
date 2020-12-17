@@ -16,7 +16,7 @@
      * Distributed as-is; no warranty is given.
      */
 
-declare namespace exttestb {
+declare namespace exttestc {
 }
 
 // Auto-generated. Do not edit. Really.

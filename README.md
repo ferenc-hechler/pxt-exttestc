@@ -4,7 +4,7 @@
 
 Install Extension
  
-* https://github.com/ferenc-hechler/pxt-exttestb
+* https://github.com/ferenc-hechler/pxt-exttestc
 
 and use javasript sources from INFO/test-full.ts in following editors
  

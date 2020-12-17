@@ -1,15 +1,15 @@
 {
-    "name": "exttestb",
-    "version": "0.2.6",
-    "description": "test for calliope extensions-v026.",
+    "name": "exttestc",
+    "version": "0.2.7",
+    "description": "test for calliope extensions-v027.",
     "license": "MIT",
     "dependencies": {
         "core": "*"
     },
     "files": [
         "README.md",
-        "exttestb.ts",
-        "exttestb.cpp",
+        "exttestc.ts",
+        "exttestc.cpp",
         "platform/Utils.h",
         "platform/Utils.cpp",
         "shims.d.ts",

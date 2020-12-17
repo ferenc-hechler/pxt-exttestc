@@ -2,12 +2,12 @@
 
 
 //% weight=70 icon="\u237E" color=#74DF00 block="AI"
-namespace exttestb {
+namespace exttestc {
 
     //% weight=100 
     //% blockId=exttestb_initfcnn
     //% block="Init Brain|number %inputs|number[] %hidden|number %outputs"
-    //% shim=exttestb::initfcnn
+    //% shim=exttestc::initfcnn
     export function initfcnn(inputs: number, hidden: number[], outputs: number): void {
     	basic.showString("sim:init")
     }
@@ -15,7 +15,7 @@ namespace exttestb {
     //% weight=90 
     //% blockId=exttestb_fcnnfromjson
     //% block="Json Brain|string %json"
-    //% shim=exttestb::fcnnfromjson
+    //% shim=exttestc::fcnnfromjson
     export function fcnnfromjson(json: string): void {
     	basic.showString("sim:json")
     }
@@ -23,7 +23,7 @@ namespace exttestb {
     //% weight=70 
     //% blockId=exttestb_train
     //% block="Train|number[] %input|number[] %expected_output"
-    //% shim=exttestb::train
+    //% shim=exttestc::train
     export function train(input: number[], expected_output: number[]): void {
     	basic.showString("sim-train")
     }
@@ -31,7 +31,7 @@ namespace exttestb {
     //% weight=60 
     //% blockId=exttestb_ftrain
     //% block="Train with err result|number[] %input|number[] %expected_output"
-    //% shim=exttestb::ftrain
+    //% shim=exttestc::ftrain
     export function ftrain(input: number[], expected_output: number[]): number {
     	basic.showString("sim-ftrain")
         return 1
@@ -40,7 +40,7 @@ namespace exttestb {
     //% weight=50 
     //% blockId=exttestb_predict
     //% block="Predict|number[] %input|number[] %output"
-    //% shim=exttestb::predict
+    //% shim=exttestc::predict
     export function predict(input: number[], output: number[]): void {
     	basic.showString("sim-predict")
     }

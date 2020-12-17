@@ -10,6 +10,8 @@
         "README.md",
         "exttestb.ts",
         "exttestb.cpp",
+        "platform/Utils.h",
+        "platform/Utils.cpp",
         "shims.d.ts",
         "enums.d.ts"
     ],

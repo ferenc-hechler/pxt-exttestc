@@ -30,7 +30,7 @@ namespace exttestb {
 //% block="Init Brain|number %inputs|number[] %hidden|number %outputs"
 //% shim=exttestb::initfcnn
 void initfcnn(int inputs, RefCollection &hidden, int outputs) {
-	log("initfcnn-v025");
+	log("initfcnn-v2");
 }
 
 
@@ -38,7 +38,10 @@ void initfcnn(int inputs, RefCollection &hidden, int outputs) {
 //% block="Json Brain|string %json"
 //% shim=exttestb::fcnnfromjson
 void fcnnfromjson(String json) {
-	log("fcnnfromjson-v2");
+	log("fcnnfromjson-v026\r\n");
+	const char *jsonNN = PXT_STRING_DATA(json);
+	log(jsonNN);
+	log("\r\n");
 }
 
 
@@ -64,7 +67,7 @@ void train(RefCollection &input, RefCollection &expected_output) {
 //% block="Predict|number[] %input|number[] %output"
 //% shim=exttestb::predict
 void predict(RefCollection &input, RefCollection &output) {
-	log("predict-v2");
+	log("predict-v026");
 }
 
 

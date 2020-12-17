@@ -30,7 +30,7 @@ namespace exttestb {
 //% block="Init Brain|number %inputs|number[] %hidden|number %outputs"
 //% shim=exttestb::initfcnn
 void initfcnn(int inputs, RefCollection &hidden, int outputs) {
-	log("initfcnn-v2");
+	log("initfcnn-v025");
 }
 
 

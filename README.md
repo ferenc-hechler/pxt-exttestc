@@ -7,11 +7,16 @@ Install Extension
 * https://github.com/ferenc-hechler/pxt-exttestc
 
 and use javasript sources from INFO/test-full.ts in following editors
- 
+
 * CALLIOPE - https://makecode.calliope.cc/#editor
 * MICROBIT - https://makecode.microbit.org/#editor
 * CALLIOPE/beta - https://makecode.calliope.cc/beta#editor
 * MICROBIT/beta - https://makecode.microbit.org/beta#editor
+
+program tested
+
+* HW - HelloWorld
+* FULL - test-full.ts
 
 ### v0.2.4
  
@@ -29,13 +34,17 @@ and use javasript sources from INFO/test-full.ts in following editors
 added platform/Utils.cpp
 
 + CALLIOPE
-- MICROBIT (even Hello-World blocks fail)
+- MICROBIT HW 
 
 ### v0.2.8
 
 integrated Utils.h/Utils.cpp into exttestc.cpp
 
+- MICROBIT HW
 
+### v0.2.9
+
+strip down Utils to log()
 
 
 

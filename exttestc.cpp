@@ -20,6 +20,11 @@
 #include <cstdint>
 #include <math.h>
 
+
+#include <stdint.h>
+#include <stddef.h>
+#include<stdarg.h>
+
 void log(const char *msg) {
     uBit.serial.send(msg);
 }
@@ -32,7 +37,7 @@ namespace exttestc {
 //% block="Init Brain|number %inputs|number[] %hidden|number %outputs"
 //% shim=exttestc::initfcnn
 void initfcnn(int inputs, RefCollection &hidden, int outputs) {
-	log("initfcnn-v029");
+	log("initfcnn-v030");
 }
 
 
@@ -40,7 +45,7 @@ void initfcnn(int inputs, RefCollection &hidden, int outputs) {
 //% block="Json Brain|string %json"
 //% shim=exttestc::fcnnfromjson
 void fcnnfromjson(String json) {
-	log("fcnnfromjson-v029\r\n");
+	log("fcnnfromjson-v030\r\n");
 	const char *jsonNN = PXT_STRING_DATA(json);
 	log(jsonNN);
 	log("\r\n");
@@ -69,7 +74,7 @@ void train(RefCollection &input, RefCollection &expected_output) {
 //% block="Predict|number[] %input|number[] %output"
 //% shim=exttestc::predict
 void predict(RefCollection &input, RefCollection &output) {
-	log("predict-v029");
+	log("predict-v030");
 }
 
 

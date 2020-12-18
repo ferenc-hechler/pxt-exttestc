@@ -46,6 +46,13 @@ integrated Utils.h/Utils.cpp into exttestc.cpp
 
 strip down Utils to log()
 
++ MICROBIT FULL
+
+### v0.3.0
+
+add includes from Utils.cpp
+
+
 
 
 ## ~ hint

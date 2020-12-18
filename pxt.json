@@ -1,7 +1,7 @@
 {
     "name": "exttestc",
-    "version": "0.2.7",
-    "description": "test for calliope extensions-v027.",
+    "version": "0.2.8",
+    "description": "test for calliope extensions-v028.",
     "license": "MIT",
     "dependencies": {
         "core": "*"
@@ -10,8 +10,6 @@
         "README.md",
         "exttestc.ts",
         "exttestc.cpp",
-        "platform/Utils.h",
-        "platform/Utils.cpp",
         "shims.d.ts",
         "enums.d.ts"
     ],

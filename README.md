@@ -1,4 +1,4 @@
-# ExtTestB
+# ExtTestC
 
 ## Test Releases
 
@@ -11,7 +11,7 @@ and use javasript sources from INFO/test-full.ts in following editors
 * CALLIOPE - https://makecode.calliope.cc/#editor
 * MICROBIT - https://makecode.microbit.org/#editor
 * CALLIOPE/beta - https://makecode.calliope.cc/beta#editor
-* MICROBIT/beta - https://makecode.microbit.org/betabeta#editor
+* MICROBIT/beta - https://makecode.microbit.org/beta#editor
 
 ### v0.2.4
  
@@ -23,6 +23,19 @@ and use javasript sources from INFO/test-full.ts in following editors
 + CALLIOPE
 
 ### v0.2.6
+
+### v0.2.7
+
+added platform/Utils.cpp
+
++ CALLIOPE
+- MICROBIT (even Hello-World blocks fail)
+
+### v0.2.8
+
+integrated Utils.h/Utils.cpp into exttestc.cpp
+
+
 
 
 
